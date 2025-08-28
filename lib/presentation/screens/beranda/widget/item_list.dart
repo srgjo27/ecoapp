@@ -46,7 +46,7 @@ class ItemList extends StatelessWidget {
             crossAxisCount: 2,
             crossAxisSpacing: 10.w,
             mainAxisSpacing: 10.h,
-            childAspectRatio: 0.7,
+            childAspectRatio: 0.6.w,
           ),
           itemCount: products.length,
           itemBuilder: (context, index) {

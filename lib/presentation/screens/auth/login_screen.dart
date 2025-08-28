@@ -8,7 +8,6 @@ import '../../../core/constants/img_string.dart';
 import '../../../core/routes/app_path.dart';
 import '../../../shared/colors.dart';
 import '../../../shared/typography.dart';
-import '../../providers/auth_provider.dart';
 import 'widget/custom_button.dart';
 import 'widget/custom_switch.dart';
 import 'widget/input_field.dart';

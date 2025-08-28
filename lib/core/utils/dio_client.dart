@@ -42,7 +42,7 @@ class DioClient {
 
   void updateToken(String newToken) {
     token = newToken;
-    final storage = FlutterSecureStorage();
+    const storage = FlutterSecureStorage();
     storage.write(key: 'access_token', value: newToken);
   }
 }

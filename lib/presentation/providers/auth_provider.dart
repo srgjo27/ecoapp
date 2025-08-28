@@ -18,7 +18,7 @@ final authProvider = AsyncNotifierProvider<AuthNotifier, Auth?>(() {
 });
 
 class AuthNotifier extends AsyncNotifier<Auth?> {
-  final FlutterSecureStorage _storage = FlutterSecureStorage();
+  static const FlutterSecureStorage _storage = FlutterSecureStorage();
 
   @override
   Future<Auth?> build() async {

@@ -8,7 +8,6 @@ part 'auth_model.g.dart';
 @freezed
 class AuthModel with _$AuthModel {
   const factory AuthModel({
-    // ignore: invalid_annotation_target
     @JsonKey(name: 'access_token') required String accessToken,
   }) = _AuthModel;
 
