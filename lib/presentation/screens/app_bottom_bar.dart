@@ -1,3 +1,4 @@
+import 'package:ecoapp/presentation/screens/wishlist/wishlist.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -16,6 +17,7 @@ class AppBottomBar extends ConsumerStatefulWidget {
 class _AppBottomBarState extends ConsumerState<AppBottomBar> {
   static final List<Widget> _widgetOptions = <Widget>[
     const BerandaScreen(),
+    const WishlistScreen(),
     const ProfileScreen(),
   ];
 
@@ -38,6 +40,7 @@ class _AppBottomBarState extends ConsumerState<AppBottomBar> {
         unselectedItemColor: AppColorsTheme.secondary,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: ''),
+          BottomNavigationBarItem(icon: Icon(Icons.favorite), label: ''),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: ''),
         ],
       ),

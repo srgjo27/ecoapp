@@ -1,7 +1,2 @@
-import 'package:dartz/dartz.dart';
-
-import '../entities/auth.dart';
-
-abstract class AuthRepository {
-  Future<Either<String, Auth>> signIn(String email, String password);
-}
+// TODO: Define AuthRepository interface for authentication features.
+// This should declare methods like signIn, signOut, etc.

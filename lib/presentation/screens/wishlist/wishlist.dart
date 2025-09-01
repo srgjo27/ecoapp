@@ -48,7 +48,7 @@ class WishlistScreen extends StatelessWidget {
                           // Handle item removal
                         },
                         child: Container(
-                          padding: EdgeInsets.symmetric(horizontal: 16.w),
+                          padding: EdgeInsets.all(16.w),
                           decoration: const BoxDecoration(
                             color: AppColorsTheme.background,
                           ),
@@ -92,32 +92,12 @@ class WishlistScreen extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              Column(
-                                children: [
-                                  IconButton(
-                                    icon: Icon(
-                                      Icons.add,
-                                      size: 20.sp,
-                                      color: AppColorsTheme.primaryDark,
-                                    ),
-                                    onPressed: () {},
-                                  ),
-                                  Text(
-                                    '5',
-                                    style:
-                                        CustomTypography.poppinsMedium.copyWith(
-                                      fontSize: 14.sp,
-                                    ),
-                                  ),
-                                  IconButton(
-                                    icon: Icon(
-                                      Icons.remove,
-                                      size: 20.sp,
-                                      color: AppColorsTheme.primaryDark,
-                                    ),
-                                    onPressed: () {},
-                                  ),
-                                ],
+                              IconButton(
+                                icon: const Icon(Icons.delete_outline,
+                                    color: AppColorsTheme.textError),
+                                onPressed: () {
+                                  // Handle item removal
+                                },
                               ),
                             ],
                           ),

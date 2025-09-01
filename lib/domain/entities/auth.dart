@@ -1,17 +1,2 @@
-import 'package:equatable/equatable.dart';
-
-class Auth extends Equatable {
-  final String accessToken;
-  // final String refreshToken;
-
-  const Auth({
-    required this.accessToken,
-    // required this.refreshToken,
-  });
-
-  @override
-  List<Object?> get props => [
-        accessToken,
-        // refreshToken,
-      ];
-}
+// TODO: Define Auth entity for authentication domain model.
+// This class should represent the authentication state/data.

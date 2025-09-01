@@ -26,25 +26,10 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
 
   bool rememberMe = false;
 
+  // TODO: Implement login logic to connect UI with backend authentication.
+  // This should call the auth provider/usecase and handle the result.
   void _login() async {
-    // if (_formKey.currentState!.validate()) {
-    //   final authNotifier = ref.read(authProvider.notifier);
-    //   await authNotifier.signIn(
-    //     _emailController.text.trim(),
-    //     _passwordController.text.trim(),
-    //   );
-
-    //   final authState = ref.read(authProvider);
-    //   authState.when(
-    //     data: (auth) {
-
-    //     },
-    //     error: (error, _) {
-
-    //     },
-    //     loading: () {},
-    //   );
-    // }
+    // TODO: Call login usecase/provider here
     context.go(AppPath.appBottomBar);
   }
 

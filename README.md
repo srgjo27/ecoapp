@@ -1,15 +1,17 @@
 # EcoApp - Grocery Shopping Mobile App
 
-EcoApp adalah aplikasi mobile - **Cart Management**: Swipe gestures dan quantity controls
+⚠️ **Catatan: Ini adalah UI Kit Only!**
 
-> **Note**: ✅ Screenshots sudah tersedia di folder `screenshots/` menampilkan 6 halaman utama aplikasi: Home, Categories, Products, Product Detail, Cart, dan Profile.
+Seluruh logic integrasi backend/API telah dihapus dan diganti dengan TODO. Semua fitur yang berhubungan dengan backend (autentikasi, fetch data, dsb) hanya berupa placeholder. Proyek ini hanya berisi tampilan antarmuka (UI) dan siap digunakan sebagai dasar pengembangan aplikasi Flutter dengan arsitektur modular.
 
-## 🛠️ Tech Stackmerce untuk belanja groceries dan produk organik yang dibangun menggunakan Flutter. Aplikasi ini menyediakan pengalaman berbelanja yang mudah dan intuitif dengan focus pada produk segar dan organik.
+---
+
+EcoApp adalah aplikasi mobile e-commerce untuk belanja groceries dan produk organik yang dibangun menggunakan Flutter. Aplikasi ini menyediakan pengalaman berbelanja yang mudah dan intuitif dengan fokus pada produk segar dan organik.
 
 ## 🌟 Fitur Utama
 
 - **Splash Screen & Onboarding**: Pengenalan aplikasi untuk pengguna baru
-- **Autentikasi**: System login dengan penyimpanan aman menggunakan Flutter Secure Storage
+- **Autentikasi**: UI login (tanpa logic backend, hanya tampilan)
 - **Beranda**: Tampilan utama dengan pencarian, carousel banner, kategori produk, dan daftar produk unggulan
 - **Kategori Produk**:
   - Sayuran (Vegetables)
@@ -22,7 +24,7 @@ EcoApp adalah aplikasi mobile - **Cart Management**: Swipe gestures dan quantity
 - **Wishlist**: Daftar produk favorit
 - **Profile**: Halaman profil pengguna dengan menu navigasi
 
-## � Tampilan UI Aplikasi
+## 📱 Tampilan UI Aplikasi
 
 ### Screenshots
 
@@ -74,9 +76,9 @@ EcoApp adalah aplikasi mobile - **Cart Management**: Swipe gestures dan quantity
 - **Search Experience**: Real-time search dengan category filtering
 - **Cart Management**: Swipe gestures dan quantity controls
 
-> **Note**: Untuk menambahkan screenshots, buat folder `screenshots/` di root project dan tambahkan file gambar sesuai dengan nama yang disebutkan di atas.
+## 🛠️ Tech Stack
 
-## �🛠️ Tech Stack
+> **Catatan:** Semua logic backend/API (Dio, repository, usecase, provider, dsb) telah dihapus/diganti TODO. Jika ingin menghubungkan ke backend, silakan implementasikan bagian-bagian yang sudah diberi komentar TODO di source code.
 
 ### Framework & Language
 
@@ -104,11 +106,11 @@ EcoApp adalah aplikasi mobile - **Cart Management**: Swipe gestures dan quantity
 - **Introduction Screen**: 3.1.17 (Onboarding screens)
 - **Awesome Bottom Bar**: 1.2.4 (Custom bottom navigation)
 
-### Network & Data
+### Network & Data (UI Only)
 
-- **Dio**: 5.8.0+1 (HTTP client untuk API calls)
-- **Flutter Secure Storage**: 9.2.4 (Secure data storage)
-- **Flutter DotEnv**: 5.2.1 (Environment variables)
+- **Dio**: (sudah dihapus, hanya placeholder TODO)
+- **Flutter Secure Storage**: (sudah dihapus, hanya placeholder TODO)
+- **Flutter DotEnv**: (sudah dihapus, hanya placeholder TODO)
 
 ### Navigation
 
@@ -220,11 +222,10 @@ Menggunakan font **Poppins** dengan berbagai weight:
 
 ## 🔧 Konfigurasi Development
 
-### API Integration
+### API Integration (UI Only)
 
-- Base URL dikonfigurasi melalui environment variables
-- Dio client dengan interceptor untuk authentication
-- Error handling dengan Either type dari Dartz
+- Semua logic API telah dihapus/diganti TODO.
+- Jika ingin menghubungkan ke backend, implementasikan bagian-bagian TODO di folder `core/`, `data/`, `domain/`, dan `presentation/providers/`.
 
 ### State Management
 
@@ -280,7 +281,7 @@ flutter build ios --release
 4. Push ke branch (`git push origin feature/amazing-feature`)
 5. Buat Pull Request
 
-## � Menambahkan Screenshots
+## 📸 Menambahkan Screenshots
 
 Untuk melengkapi dokumentasi dengan screenshot tampilan UI:
 
@@ -335,7 +336,7 @@ flutter screenshot --type=device
 
 > 💡 **Tip**: Gunakan resolusi 375x812 (iPhone 12 Pro) untuk konsistensi tampilan di README.md
 
-## �📄 License
+## 📄 License
 
 Project ini menggunakan lisensi [MIT License](LICENSE).
 
@@ -343,8 +344,8 @@ Project ini menggunakan lisensi [MIT License](LICENSE).
 
 Untuk pertanyaan atau feedback, silakan hubungi:
 
-- Email: [your-email@example.com]
-- GitHub: [github-username]
+- Email: [josuasiregar0103@gmail.com]
+- GitHub: [https://github.com/srgjo27]
 
 ---
 
